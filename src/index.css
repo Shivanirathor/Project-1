@@ -1,0 +1,12 @@
+button{
+  font-size: 40px;
+  padding: 30px;
+   backgroundColor:"red";
+   cursor: pointer;
+   border-radius: 20px;
+}
+.activity{
+   padding:"50px";
+    backgroundColor:"lightblue"; 
+    fontSize:"16px";
+}
