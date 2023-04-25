@@ -1,7 +1,7 @@
 console.log("hii");
 let obj = [
   {
-    name: "Mika",
+    name: "Zika",
   },
   {
     name: "Alia",
@@ -14,11 +14,17 @@ let obj = [
 },
 ];
 obj.sort((a,b)=>{
-    return (a.name - b.name);
+    
+  if(a.name < b.name){
+    return -1;
+  }
+  if(a.name > b.name){
+    return 1;
+  }
+  return 0;
 });
-obj.forEach((e)=>{
-    console.log(`${e.name}`)
-})
+
+console.log(obj);
 
 
 // let b = ["mika", "alia", "ali", "shivani"]
