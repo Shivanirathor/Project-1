@@ -7,7 +7,7 @@ class ClassBasedComponent extends Component{
     render(){
         return(
             <div> <child/>
-                Class Based Cpmponent</div>
+                Class Based Component</div>
         )
     }
 }
