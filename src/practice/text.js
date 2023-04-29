@@ -64,12 +64,14 @@ console.log(obj);
 
 
 // =======
-const number = [1,2,"Afroj","shivani","shaily","harish","vishal",5,10];
+// const number = [1,2,"Afroj","shivani","shaily","harish","vishal",5,10];
 
-// const
-const numbers = [1,2,3,4,5,6];
-const sumnumbers = numbers.reduce((total, item) => total + item, 3); //hello is initial value
-console.log(sumnumbers);
+// // const
+// const numbers = [1,2,3,4,5,6];
+// const sumnumbers = numbers.reduce((total, item) => total + item, 3); //hello is initial value
+// console.log(sumnumbers);
+
+
 
 
 

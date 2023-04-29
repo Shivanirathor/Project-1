@@ -1,11 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+ import React from 'react'          ///module ko import isliye krte h taki jsx ko use kr ske
+import {createRoot} from 'react-dom/client'
 import App from './App'
-import './index.css'
+
 
 // this is main file
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const container = document.querySelector("#root");
+const root = createRoot(container);
+
+
+root.render(<App />);
+
